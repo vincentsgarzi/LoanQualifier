@@ -1,33 +1,49 @@
-# Project Title
+# Loan Qualification Analyzer
 
-Just after the title, introduce your project by describing attractively what the project is about and what is the main problem that inspires you to create this project or what is the main contribution for the potential user of your project.
+With this application, you'll be able to check what loans are available to you based on your personal financials.
 
 ---
 
 ## Technologies
 
-Describe the technologies required to use your project such as programming languages, libraries, frameworks, and operating systems. Be sure to include the specific versions of any critical dependencies that you have used in the stable version of your project.
+This project utilized a couple public APIs, including Fire and Questionary in order to semelessly interact with the
+user through the CLI.
+
+* [fire](https://github.com/google/python-fire) - For the command line interface, help page, and entry-point.
+
+* [questionary](https://github.com/tmbo/questionary) - For interactive user prompts and dialogs
 
 ---
 
 ## Installation Guide
 
-In this section, you should include detailed installation notes containing code blocks and screenshots.
+You will need to install the aformentioned libraries in order to run the application.
+
+You can do so by running the following commands, assuming you have pip installed on your machine.
+
+```python
+  pip install fire
+  pip install questionary
+```
 
 ---
 
 ## Usage
 
-This section should include screenshots, code blocks, or animations explaining how to use your project.
+To use the Loan Qualifier application simply clone this repository and run  **app.py** using the following command:
+
+```python
+python app.py
+```
 
 ---
 
 ## Contributors
 
-In this section, list all the people who contribute to this project. You might want recruiters or potential collaborators to reach you, so include your contact email and, optionally, your LinkedIn or Twitter profile.
+Brought to you by Vincent Sgarzi for the Columbia Fintech Bootcamp.
 
 ---
 
 ## License
 
-When you share a project on a repository, especially a public one, it's important to choose the right license to specify what others can and can't with your source code and files. Use this section to include the license you want to use.
+MIT
