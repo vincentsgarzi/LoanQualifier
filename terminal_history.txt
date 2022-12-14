@@ -1,0 +1,50 @@
+  350  cd Documents/Columbia/atm/
+  351  git status
+  352  git commit -a -m "chenges to file structure"
+  353  ls
+  354  python atm.py 
+  355  python atm.py 
+  356  cd ..
+  357  ls
+  358  mkdir Challenge2
+  359  git clone https://github.com/vincentsgarzi/Loan_Qualifier.git
+  360  ls
+  361  cd Loan_Qualifier/
+  362  ls
+  363  ls
+  364  ls
+  365  git status
+  366  git commit -a -m "initial commit of starter files"
+  367  git add README.md app.py data/ qualifier/
+  368  git ststua
+  369  git status
+  370  git commit -m "initial commit of starter files"
+  371  git push
+  372  cd ..
+  373  git clone https://github.com/vincentsgarzi/LoanQualifier.git
+  374  ls
+  375  cd LoanQualifier/
+  376  git status
+  377  git add -a
+  378  git add -A
+  379  git status
+  380  git commit -m "initial commit with starter files"
+  381  git push
+  382  cd ..
+  383  jupyter lab
+  384  conda activate dev
+  385  ls
+  386  cd LoanQualifier/
+  387  ls
+  388  git status
+  389  git add app.py 
+  390  git commit -m "added functionality for save_qualifying_loans method"
+  391  git status
+  392  git add qualifier/utils/fileio.py 
+  393  git commit -m "implemented the save_csm method"
+  394  git push
+  395  git status
+  396  git add README.md 
+  397  git commit -m "updates to readme file"
+  398  git push
+  399  history 50 > terminal_history.txt
